@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Streaming Music By Country</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+  <h1>Streaming Music By Country</h1>
+  <div id="plot"></div>
+
+  <script src="plots.js"></script>
+
+  <select id="selDataset" onchange="getData(this.value)">
+    <option value="USA">USA</option>
+    <option value="UK">UK</option>
+    <option value="Australia">Australia</option>
+  </select>
+</body>
+
+</html>
